@@ -1,29 +1,3 @@
-.main-nav a:hover {
-color: #2196F3;
-}
-.main-nav h2 {
-    color: #000000;
-}
-.main-nav span {
-    color: #2196F3;
-}
-.footer-title span {
-    color: #2196F3;
-}
-.head {
-    background: #2F303A;
-}
-.head h2 {
-    color: #ffffff;
-}
-.head button {
-    color: #FFFFFF;
-    background: #2196F3;
-    border: 0;
-}
-ul {
-    list-style: none
-}
 a {
     text-decoration: none;
 }
@@ -31,30 +5,148 @@ a {
     padding: 0;
     margin: 0;
 }
+.logo-in-head {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.logo-in-head span {
+    color: #2196F3;
+}
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.main-nav a:hover {
+color: #2196F3;
+}
+.head {
+    background: #2F303A;
+}
+.head h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;;
+}
+.head button {
+    color: #FFFFFF;
+    background: #2196F3;
+    border: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+ul {
+    list-style: none
+}
 .domestic-nav a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     color: #212121;
 }
 .contact-nav a{
-    color: #757575;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;;
 }
 .advantages p{
-    color: #757575;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;;
 }
-.advantages h4{
-    color: #212121;
-}
-h3 {
-    color: #212121;   
+.advantages h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;;
 }
 .name {
-    color: #212121;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;;
 }
 .duty {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
     color: #757575;
 }
-.fotter-contacts {
-    color: #757575;
+.footer {
+    background-color: #2F303A;
 }
-.footer-address {
+.logo-in-footer {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
     color: #ffffff;
+}
+.logo-in-footer span {
+    color: #2196F3;
+} 
+.address {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #ffffff
+}
+.address a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
