@@ -33,7 +33,7 @@ color: #2196F3;
 .head {
     background: #2F303A;
 }
-.head h1 {
+h1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -149,4 +149,54 @@ ul {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.main-filter button {
+    padding: 6px 22px;
+    border: 0;
+    border-radius: 4px;
+    color: #212121;
+    background-color: #F5F4FA;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.main-filter button:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-type {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    
+}
+
+.portfolio-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    
 }
