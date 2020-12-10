@@ -27,9 +27,12 @@ h2 {
     color: #212121;
 }
 
-.main-nav a:hover {
+.domestic-nav a:hover {
 color: #2196F3;
 }
+.contact-nav a:hover {
+    color: #2196F3;
+    }
 .head {
     background: #2F303A;
 }
@@ -132,7 +135,7 @@ ul {
 .logo-in-footer span {
     color: #2196F3;
 } 
-.address {
+.address p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
