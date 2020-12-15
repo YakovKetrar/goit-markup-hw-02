@@ -10,12 +10,13 @@ a {
     --grey: #757575;
     --black: #212121;
     --white: #FFFFFF;
+    --backgrd:  #2F303A;
 }
 body {
-    font-family: Roboto, Arial;   
+    font-family: Roboto, sans-serif;   
 }
 .logo-in-head {
-    font-family: Raleway, Arial;   
+    font-family: Raleway;   
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
@@ -25,7 +26,7 @@ body {
     color: var(--blue);
 }
 h2 {
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.03em;
@@ -38,7 +39,7 @@ color: var(--blue);
 color: var(--blue);
 }
 .head {
-    background: #2F303A;
+    background: var(--backgrd);
 }
 h1 {
     font-weight: 900;
@@ -54,7 +55,7 @@ h1 {
     color: var(--white);
     background: var(--blue);
     border: 0;
-    font-weight: 700x;
+    font-weight: 700;
     font-size: 16px;
     line-height: 30px;
     display: flex;
@@ -73,7 +74,7 @@ ul {
     color: var(--black);
 }
 .domestic-nav span {
-    color: #2196F3;
+    color: var(--blue);
 }
 .contact-nav a{
     font-weight: 500;
@@ -89,7 +90,7 @@ ul {
     color: var(--grey);
 }
 .advantages h3{
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -110,10 +111,10 @@ ul {
     color: var(--grey);
 }
 .footer {
-    background-color: #2F303A;
+    background-color: var(--backgrd);
 }
 .logo-in-footer {
-    font-family: Raleway, Arial;
+    font-family: Raleway;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
@@ -168,7 +169,7 @@ ul {
 }
 
 .portfolio-name {
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
