@@ -16,10 +16,10 @@ body {
     font-family: Roboto, sans-serif;   
 }
 .logo-in-head {
-    font-family: Raleway;   
+    font-family: Raleway, sans-serif;   
     font-size: 26px;
     line-height: 31px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
     color: #000000;
 }
 .logo-in-head span {
@@ -29,7 +29,7 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
     color: var(--black);
 }
 .domestic-nav a:hover {
@@ -46,7 +46,7 @@ h1 {
     font-size: 44px;
     line-height: 60px;
     text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.06;
     text-transform: uppercase;
     color: var(--white);
 }
@@ -61,7 +61,7 @@ h1 {
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.06;
 }
 ul {
     list-style: none
@@ -70,7 +70,7 @@ ul {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02;
     color: var(--black);
 }
 .domestic-nav span {
@@ -80,20 +80,20 @@ ul {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02;
     color: var(--grey);
 }
 .advantages p{
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
     color: var(--grey);
 }
 .advantages h3{
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
     text-transform: uppercase;
     color: var(--black);
 }
@@ -101,40 +101,53 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
     color: var(--black);
 }
 .duty {
     font-size: 16px;
     line-height: 19px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
     color: var(--grey);
 }
+
+
+
+/* footer */
+
 .footer {
     background-color: var(--backgrd);
 }
 .logo-in-footer {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 26px;
     line-height: 31px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
     color: var(--white);
 }
 .logo-in-footer span {
     color: var(--blue);
 } 
 .address p {
+    font-style: normal;
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
     color: var(--white);
 }
 .address a {
+
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
     color: rgba(255, 255, 255, 0.6);
 }
+
+
+
+
+
+/* portfolio */
 
 .portfolio button {
     font-family: inherit; 
@@ -147,9 +160,8 @@ ul {
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
 }
-
 .portfolio button:hover {
     color: var(--white);
     background-color: var(--blue);
@@ -157,22 +169,18 @@ ul {
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
 }
-
 .portfolio-type {
     font-size: 16px;
     line-height: 30px;
-    letter-spacing: 0.03em;
-    color: var(--grey);
-    
+    letter-spacing: 0.03;
+    color: var(--grey); 
 }
-
 .portfolio-name {
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.06;
     color: var(--black);
-    
 }
